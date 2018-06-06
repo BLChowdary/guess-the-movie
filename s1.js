@@ -1,4 +1,4 @@
-var second=10;
+var second=30;
 var i;
 var flag;
 var f = [0, 0, 0, 0, 0];
@@ -12,7 +12,7 @@ if(e.keyCode>48 && e.keyCode<54){
 	if (f[i] == 0) {
 		
 		audio.play();
-		document.getElementById("timer").innerHTML=10;
+		document.getElementById("timer").innerHTML=30;
 		document.getElementById("note").innerHTML ="  ";
         countTime();
 		f[i] = 1;
