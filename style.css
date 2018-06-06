@@ -76,7 +76,7 @@ input{
     margin:3%;
 margin-top: 0%;
 }
-.col-12{
+.circle,.key-option{
     display: flex;
     flex-direction: row;
     justify-content: center;
